@@ -21,8 +21,9 @@
 
         /* Header */
         header {
-            background-color: #0F1E08;
-            padding: 15px;
+            background: url('https://github.com/identverfahrensysteme/digital/blob/main/Header.png?raw=true') no-repeat center center/cover;
+            padding: 80px 15px;
+            color: white;
         }
 
         nav ul {
@@ -83,21 +84,6 @@
             border-radius: 5px;
         }
 
-        /* Payment Section */
-        #payments ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        #payments ul li {
-            background: #172B0F;
-            color: white;
-            padding: 10px;
-            display: inline-block;
-            margin: 5px;
-            border-radius: 5px;
-        }
-
         /* Contact Form */
         form {
             display: flex;
@@ -155,7 +141,6 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#payments">Payments</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -189,33 +174,24 @@ With a strong foundation in business consulting, we help companies optimize thei
         </div>
     </section>
 
-    <section id="payments">
-        <h2>Accepted Payment Methods</h2>
-        <ul>
-            <li>Credit/Debit Cards</li>
-            <li>PayPal</li>
-            <li>Google Pay & Apple Pay</li>
-        </ul>
-    </section>
-
     <section id="contact">
         <h2>Contact Us</h2>
         <p>If you have any inquiries, feel free to reach out to us.</p>
         <form action="send_email.php" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-       </form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-   <footer>
-    <p>&copy; 2025 checkinmanagement All rights reserved.</p>
-    <ul>
-        <li><a href="terms.html">Terms & Conditions</a></li>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
-</footer>
+    <footer>
+        <p>&copy; 2025 checkinmanagement All rights reserved.</p>
+        <ul>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+    </footer>
 
 </body>
 </html>
