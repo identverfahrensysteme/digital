@@ -48,18 +48,24 @@
       font-weight: bold;
     }
 
-    /* Hero Section */
+    /* Hero Section with visible image */
     #hero {
-      background: url('https://source.unsplash.com/1600x900/?technology,digital') no-repeat center center/cover;
-      color: white;
-      padding: 80px 20px;
+      background: white;
+      color: #172B0F;
+      padding: 50px 20px;
+    }
+
+    #hero img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
 
     .btn {
       display: inline-block;
       padding: 12px 25px;
-      background: white;
-      color: #172B0F;
+      background: #172B0F;
+      color: white;
       text-decoration: none;
       border-radius: 5px;
       font-size: 18px;
@@ -160,6 +166,7 @@
   </header>
 
   <section id="hero">
+    <img src="https://source.unsplash.com/1600x900/?technology,digital" alt="Digital Products" />
     <h2>Your Trusted Digital Marketplace</h2>
     <p>We offer high-quality digital products with multiple secure payment options.</p>
     <a href="#services" class="btn">Explore Services</a>
