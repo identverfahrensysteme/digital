@@ -22,14 +22,15 @@
     /* Header */
     header {
       background: url('https://github.com/identverfahrensysteme/digital/blob/main/Header.png?raw=true') no-repeat center center/cover;
-      padding: 20px 30px;
+      padding: 40px 30px 20px;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
     }
 
     .logo {
       height: 60px;
+      margin-bottom: 15px;
     }
 
     nav ul {
@@ -45,36 +46,6 @@
     nav ul li a {
       color: white;
       text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* Hero Section with background image */
-    #hero {
-      background: url('https://source.unsplash.com/1600x900/?technology,digital') no-repeat center center/cover;
-      color: white;
-      padding: 100px 20px;
-    }
-
-    #hero h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    #hero p {
-      font-size: 18px;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 25px;
-      background: white;
-      color: #172B0F;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 18px;
-      margin-top: 20px;
       font-weight: bold;
     }
 
@@ -170,11 +141,7 @@
     </nav>
   </header>
 
-  <section id="hero">
-    <h2>Your Trusted Digital Marketplace</h2>
-    <p>We offer high-quality digital products with multiple secure payment options.</p>
-    <a href="#services" class="btn">Explore Services</a>
-  </section>
+  <!-- Removed hero section as requested -->
 
   <section id="about">
     <h2>Checkin Management Ltd – Company Overview</h2>
@@ -242,15 +209,15 @@
   </section>
 
   <section id="contact">
-  <h2>Contact Us</h2>
-  <p>If you have any inquiries, feel free to reach out to us.</p>
-  <form action="https://formcarry.com/s/MjhdzVLxEEh" method="POST" accept-charset="UTF-8">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+    <h2>Contact Us</h2>
+    <p>If you have any inquiries, feel free to reach out to us.</p>
+    <form action="https://formcarry.com/s/MjhdzVLxEEh" method="POST" accept-charset="UTF-8">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
   <footer>
     <p>&copy; 2025 checkinmanagement All rights reserved.</p>
@@ -262,4 +229,3 @@
 
 </body>
 </html>
-
